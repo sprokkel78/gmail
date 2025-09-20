@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=gMail
+Exec=/usr/bin/gmail
+Comment=Google Mail GUI Client
+Terminal=false
+Icon=/usr/share/gmail-sprokkel78/gmail.svg
+Type=Application
