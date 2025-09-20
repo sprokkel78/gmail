@@ -11,7 +11,7 @@ mkdir -p /usr/share/gmail-sprokkel78
 cp -r ./* /usr/share/gmail-sprokkel78/
 echo "#!/bin/sh" > /usr/bin/gmail
 echo "cd /usr/share/gmail-sprokkel78" >> /usr/bin/gmail
-echo "python3 ./gmail.py" >> /usr/bin/gmail
+echo "WEBKIT_USE_SINGLE_WEB_PROCESS=1 python3 ./gmail.py" >> /usr/bin/gmail
 cp ./gmail.desktop /usr/share/applications/com.sprokkel78.gmail.desktop
 chmod 755 /usr/bin/gmail
 chmod 664 /usr/share/gmail-sprokkel78/*
