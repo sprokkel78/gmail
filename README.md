@@ -2,7 +2,7 @@
 
 ![Screenshot](https://github.com/sprokkel78/gmail/blob/main/screenshots/gmail-1.png)
 
-A graphical user interface in PyGTK3 for Private Chat Sessions on Ubuntu and other Linux distro's. 
+A graphical user interface in PyGTK3 for using Google Mail on Ubuntu and other Linux distro's. 
 It requires Python3.10 and the PyGTK apps. Developed on Fedora 42 and tested on Ubuntu 24.04.
 
 Runs out of the	box after default installation of Fedora or Ubuntu.
